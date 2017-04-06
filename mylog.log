@@ -4,3 +4,13 @@
     4  git init
     5  Start SSH agent ‘eval "$(ssh-agent -s)"
     6  history>mylog.log
+    7  git init
+    8  git remote add origin https://github.com/kertsikoo/LAB4.git
+    9  git push -u origin master
+   10  create ShortCat.txt
+   11  git add .
+   12  git commit -m "first commit"
+   13  git remote -v
+   14  git push origin master
+   15  git branch b1
+   16  history>mylog.log
