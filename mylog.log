@@ -34,3 +34,20 @@
    34  git pull
    35  git pull origin master
    36  history>mylog.log
+   37  git checkout b2
+   38  git checkout master
+   39  git add .
+   40  git commit -m "belt to cat"
+   41  git chechout b2
+   42  git checkout b2
+   43  git add .
+   44  git commit -m "Xbelt to cat"
+   45  git checkout master
+   46  git merge b2 -m "merge"
+   47  git merge b2 -m "merge"
+   48  git merge b2 -m "merge"
+   49  git add .
+   50  git commit -m "belt selected"
+   51  git branch -d b2
+   52  git push origin master
+   53  history>mylog.log
