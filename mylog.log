@@ -1,0 +1,6 @@
+    1  git clone https://t5keha01@bitbucket.org/chitchat_team/chitchat_repo.git
+    2  mkdir LAB4
+    3  cd LAB4
+    4  git init
+    5  Start SSH agent ‘eval "$(ssh-agent -s)"
+    6  history>mylog.log
