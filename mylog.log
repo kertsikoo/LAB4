@@ -1,4 +1,4 @@
-﻿    1  git clone https://t5keha01@bitbucket.org/chitchat_team/chitchat_repo.git
+    1  git clone https://t5keha01@bitbucket.org/chitchat_team/chitchat_repo.git
     2  mkdir LAB4
     3  cd LAB4
     4  git init
@@ -14,11 +14,23 @@
    14  git push origin master
    15  git branch b1
    16  history>mylog.log
-
    17  git add .
    18  git commit -m "cat made longer"
    19  checkout branch b1
    20  git checkout branch b1
    21  git checkout b1
    22  history>mylog.log
-
+   23  git add .
+   24  git commit -m "ears added to cat"
+   25  git checkout master
+   26  git merge b1 -m "merge"
+   27  git merge b1 -m "merge"
+   28  git add .
+   29  git commit -m "commit"
+   30  git merge b1 -m "merge"
+   31  git branch -d b1
+   32  git push origin master
+   33  git branch b2
+   34  git pull
+   35  git pull origin master
+   36  history>mylog.log
